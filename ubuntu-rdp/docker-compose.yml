@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+    ubuntu-rdp:
+        ports:
+            - '13389:3389'
+            - '10022:22'
+        image: 'rosyuku/ubuntu-rdp:0.1.1'
